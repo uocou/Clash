@@ -17,4 +17,7 @@ Github：https://raw.githubusercontent.com/uocou/Clash/refs/heads/main/Life/conf
 
 找到 proxy-providers 段（约第36行），删除原URL，粘贴订阅链接（必须用引号包裹）→ 点击保存。
 
-点击“代理” → 右上角点击刷新按钮更新节点。
+点击“代理” → 右上角点击“数据按钮” → 点击右上角的刷新按钮完成更新同步。
+
+## 使用
+1 仪表盘处，出站模式必须选择“规则”，点击播放按钮，即可上网，如不使用时，记得关闭。
