@@ -34,54 +34,56 @@ dns:
     geoip-code: CN
 
 proxies:
-
+{{CLASH_PROXIES_YAML}}
 
 proxy-groups:
   - name: 全部节点
     type: select
     proxies:
-      - 
+      - DIRECT
+      {{CLASH_PROXY_NAMES_YAML}}
 
   - name: Netflix
     type: select
     proxies:
-      - 
+      {{CLASH_PROXY_NAMES_YAML}}
 
   - name: HBOMax
     type: select
     proxies:
-      - 
+      {{CLASH_PROXY_NAMES_YAML}}
 
   - name: ChatGPT
     type: select
     proxies:
-      - 
+      {{CLASH_PROXY_NAMES_YAML}}
 
   - name: Claude
     type: select
     proxies:
-      - 
+      {{CLASH_PROXY_NAMES_YAML}}
 
   - name: Gemini
     type: select
     proxies:
-      - 
+      {{CLASH_PROXY_NAMES_YAML}}
 
   - name: YouTube
     type: select
     proxies:
-      - 
+      {{CLASH_PROXY_NAMES_YAML}}
 
   - name: WhatsApp
     type: select
     proxies:
-      - 
+      {{CLASH_PROXY_NAMES_YAML}}
 
   - name: Apple
     type: select
     proxies:
       - DIRECT
-      - 
+      {{CLASH_PROXY_NAMES_YAML}}
+
 
 rule-providers:
   private:
